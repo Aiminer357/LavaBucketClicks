@@ -8,7 +8,7 @@ for n = 1:1000
     j=n;
 
     %{
-    Creating an adjacency matrix (aka the prob of going from one state to another)
+    Creating an adjacency matrix (aka the prob of going from one state to another (aka a Markov chain))
     
     the states for a pool with sources are 2e, 2f, 1e, 1f, 0e, 0f
     2e denotes 2 sources remaining and holding an empty bucket
